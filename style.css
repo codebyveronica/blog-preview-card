@@ -26,14 +26,14 @@ article {
     box-shadow: 5px 5px 0px black;
 }
 
-#principal {
+.principal {
     max-width: 300px;
     display: block;
     margin: auto;
     border-radius: 10px;
 }
 
-#topico {
+.topico {
     background-color: #F4D04E;
     color: black;
     text-align: center;
@@ -54,11 +54,11 @@ p {
     color: #949494;
 }
 
-#autor {
+.autor {
     display: flex;
 }
 
-#avatar {
+.avatar {
     max-height: 30px;
     max-width: 30px;
 }
