@@ -26,14 +26,14 @@ article {
     box-shadow: 5px 5px 0px black;
 }
 
-article img#principal {
+#principal {
     max-width: 300px;
     display: block;
     margin: auto;
     border-radius: 10px;
 }
 
-article p#topico {
+#topico {
     background-color: #F4D04E;
     color: black;
     text-align: center;
@@ -44,34 +44,34 @@ article p#topico {
     border-radius: 5px;
 }
 
-article #data {
-    font-size: 0.8em;
-}
-
-article h1 {
+h1 {
     font-size: 1.3em;
     font-weight: bolder;
 }
 
-article p {
+p {
     font-size: 0.9em;
     color: #949494;
 }
 
-article aside#autor {
+#autor {
     display: flex;
 }
 
-article img#avatar {
+#avatar {
     max-height: 30px;
     max-width: 30px;
 }
 
-article aside p {
+aside > p {
     color: black;
     font-size: 0.8em;
     font-weight: bolder;
     padding: 0px 10px;
     margin: 0px;
     margin-top: 8px;
+}
+
+time {
+    font-size: 0.8em;
 }
